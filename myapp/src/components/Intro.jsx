@@ -13,58 +13,58 @@ const Title = styled.h1`
 `
 
 const Desc = styled.p`
-width:60%;
-font-size:20px;
-margin-top:20px;
+    width:60%;
+    font-size:20px;
+    margin-top:20px;
 `
 
 const Left = styled.div`
-width:60%;
-display:flex;
-flex-direction:column;
-align-items:center;
-justify-content:center;
+    width:60%;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
 `
 
 const Right = styled.div`
-width:40%; 
-display:flex;
-align-items:center;
-justify-content:center;   
+    width:40%; 
+    display:flex;
+    align-items:center;
+    justify-content:center;   
 `
 const Info = styled.div`
-display:flex;
-width:60%;
-margin-top:50px;
-justify-content:space-between;
-align-items:center;
+    display:flex;
+    width:60%;
+    margin-top:50px;
+    justify-content:space-between;
+    align-items:center;
 `
 const Button = styled.button`
-/* border:2px solid transparent; */
-padding:15px;
-background:blue;
-color:white;
-border-radius:10px;
-font-weight:bold;
-border:none;
-letter-spacing:2px;
-cursor:pointer;
+    /* border:2px solid transparent; */
+    padding:15px;
+    background:blue;
+    color:white;
+    border-radius:10px;
+    font-weight:bold;
+    border:none;
+    letter-spacing:2px;
+    cursor:pointer;
 `
 const Contact = styled.div`
-display:flex;
-flex-direction:column;
+    display:flex;
+    flex-direction:column;
 `
 const Phone = styled.span`
     color:#f0667d;
     font-weight:bold;
 `
 const ContactText = styled.span`
-margin-top:5px;
+    margin-top:5px;
     color:gray;
 `
 
 const Image = styled.img`
-width:100%;
+    width:100%;
 
 `
 

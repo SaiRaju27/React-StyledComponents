@@ -3,13 +3,13 @@ import styled from 'styled-components';
 
 
 const Container = styled.div`
-height:75px;
+    height:75px;
 `
 const Wrapper = styled.div`
-padding:10px 20px;
-display:flex;
-justify-content:space-between;
-align-items:center;
+    padding:10px 20px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
 `
 const Left = styled.div`
     width: 60%;
@@ -22,14 +22,14 @@ const Logo = styled.h1`
     text-decoration:underline blue;
 `
 const Menu = styled.ul`
-list-style-type: none;
-display:flex;
+    list-style-type: none;
+    display:flex;
 `
 const MenuItem = styled.li`
-margin:20px;
-font-size:20px;
-font-weight:bold;
-color:gray;
+    margin:20px;
+    font-size:20px;
+    font-weight:bold;
+    color:gray;
 `
 const Button = styled.div`
     border:2px solid white;
