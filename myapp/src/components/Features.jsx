@@ -4,14 +4,18 @@ import Biodata from '../image/biodata.jpg';
 
 const Container=styled.div`
 display:flex;
-overflow:hidden;
+padding:20px;
+
 `
 const Left=styled.div`
-width:50%;
+width:60%;
+display:flex;
+
+justify-content:center;
 
 `
 const Right=styled.div`
-width:50%;
+width:40%;
 display:flex;
 flex-direction:column;
 justify-content:center;
@@ -19,7 +23,8 @@ justify-content:center;
 
 `
 const Image=styled.img`
-width:70%;
+width:60%;
+border-radius:10px;
 `
 const Title=styled.span`
 font-size:70px;
