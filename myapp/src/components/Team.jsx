@@ -33,6 +33,12 @@ width:250px;
 flex-wrap: wrap;
 padding:15px;
 margin-top:25px;
+transition:transform 3s ease;
+
+:hover{
+    cursor:pointer;
+     transform: translateY(-25px)
+}
 `
 
 const Desc=styled.p`
@@ -42,7 +48,10 @@ margin-top:8px;
 `
 const Quote=styled.i`
 font-size: 34px;
-color: rgb(255, 77, 0);`
+color: rgb(255, 77, 0);
+`
+
+
 
 const Team = () =>{
     return( 

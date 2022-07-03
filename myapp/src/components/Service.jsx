@@ -1,8 +1,10 @@
 import React from "react";
 import styled from "styled-components";
+import Play from '../image/play.png';
 
 const Container =styled.div`
 display:flex;
+
 `
 
 const Left=styled.div`
@@ -16,7 +18,7 @@ const Wrapper=styled.div`
 padding:50px;
 display:flex;
 flex-direction:column;
-align-items:center;
+
 `
 
 const Title=styled.h1`
@@ -26,6 +28,27 @@ const Desc=styled.p`
 font-size:20px;
 margin-top:20px;
 color:#555;
+`
+const CardContainer=styled.div`
+
+margin-top:50px;
+
+`
+const Button=styled.button`
+background:blue;
+width:180px;
+border:none;
+color:white;
+padding:15px;
+font-size:20px;
+border-radius:10px;
+display:flex;
+align-items:center;
+
+`
+
+const Image=styled.img`
+padding-right:8px;
 `
 const Service = () =>{
     return ( 
@@ -38,7 +61,12 @@ const Service = () =>{
                     <Desc>
                         We provvide digital experience services to startups and small business to looking for a partner of their digital media design and development , lead genartion and communications reuired . we work with you, not for you.Although we have a great resources.
                     </Desc>
+                    <CardContainer>
+<Button><Image src={Play}></Image>How it works</Button>
+                    </CardContainer>
                     </Wrapper>
+
+                   
                     </Right>
         </Container>
         </>

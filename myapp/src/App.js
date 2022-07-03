@@ -61,9 +61,8 @@ function App() {
       <Team/>
     </Container>
 
-    <Container>
       <Clients></Clients>
-    </Container>
+  
     </>
 
 
