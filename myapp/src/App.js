@@ -7,6 +7,8 @@ import Features from './components/Features'
 import Service from './components/Service';
 import Team from './components/Team';
 import Clients from './components/Clients';
+import Price from './components/Price';
+import Contact from './components/Contact'
 
 const Container = styled.div`
   height:100vh;
@@ -62,6 +64,11 @@ function App() {
     </Container>
 
       <Clients></Clients>
+      <Container><Price></Price></Container>
+      <Container>
+        <Contact/>
+      </Container>
+      
   
     </>
 

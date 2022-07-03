@@ -21,6 +21,7 @@ const Image=styled.img`
 :hover{
     curosr:pointer;
     filter:grayscale(100%);
+    cursor:pointer;
 }
 `
 const Clients = () =>{
