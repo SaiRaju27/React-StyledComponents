@@ -3,14 +3,14 @@ import styled from 'styled-components';
 import PriceCard from './PriceCard'
 
 const Container=styled.div`
-display:flex;
-justify-content:center;
-height:100%;
-align-items:center;
+    display:flex;
+    justify-content:center;
+    height:100%;
+    align-items:center;
 `
 const Header=styled.h1`
-text-align:center;
-color:orange;
+    text-align:center;
+    color:orange;
 `
 const Price=()=>{
     return(

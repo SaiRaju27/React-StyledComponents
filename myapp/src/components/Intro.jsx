@@ -65,7 +65,6 @@ const ContactText = styled.span`
 
 const Image = styled.img`
     width:100%;
-
 `
 
 const Intro = () => {

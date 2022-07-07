@@ -3,52 +3,47 @@ import styled from 'styled-components';
 import Biodata from '../image/biodata.jpg';
 
 const Container=styled.div`
-display:flex;
-padding:20px;
-
+    display:flex;
+    padding:20px;
 `
 const Left=styled.div`
-width:60%;
-display:flex;
-
-justify-content:center;
-
+    width:60%;
+    display:flex;
+    justify-content:center;
 `
 const Right=styled.div`
-width:40%;
-display:flex;
-flex-direction:column;
-justify-content:center;
-
-
+    width:40%;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
 `
 const Image=styled.img`
-width:60%;
-border-radius:10px;
+    width:60%;
+    border-radius:10px;
 `
 const Title=styled.span`
-font-size:70px;
+    font-size:70px;
 `
 const SubTitle=styled.span`
-font-style:italic;
-margin-top:30px;
-font-size:24px;
+    font-style:italic;
+    margin-top:30px;
+    font-size:24px;
 `
 const Desc=styled.p`
-colot:#777;
-margin-top:30px;
-font-size:20px;
+    colot:#777;
+    margin-top:30px;
+    font-size:20px;
 `
 const Button=styled.button`
-padding:15px 20px;
-width:150px;
-border:none;
-background-color:darkblue;
-margin-top:20px;
-cursor:pointer;
-font-size:20px;
-border-radius:20px;
-color:white;
+    padding:15px 20px;
+    width:150px;
+    border:none;
+    background-color:darkblue;
+    margin-top:20px;
+    cursor:pointer;
+    font-size:20px;
+    border-radius:20px;
+    color:white;
 `
 
 

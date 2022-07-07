@@ -5,50 +5,46 @@ import User2 from '../image/user-2.png';
 import User3 from '../image/user-3.png';
 
 const Container =styled.div`
-display:flex;
-justify-content:center;
+    display:flex;
+    justify-content:center;
 
 `
 const Header=styled.h1`
-text-align:center;
+    text-align:center;
 `
 const Testimonials=styled.div`
-
-display:flex;
-
-
-
+    display:flex;
 `
 const Image=styled.img`
-border-radius:10px;
-width:100%;
+    border-radius:10px;
+    width:100%;
 `
 const Images=styled.div`
-text-align: center;
-padding: 40px 20px;
-box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.1);
-border-radius:10px;
-margin-right:50px;
-width:250px;
-flex-wrap: wrap;
-padding:15px;
-margin-top:25px;
-transition:transform 3s ease;
+    text-align: center;
+    padding: 40px 20px;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.1);
+    border-radius:10px;
+    margin-right:50px;
+    width:250px;
+    flex-wrap: wrap;
+    padding:15px;
+    margin-top:25px;
+    transition:transform 3s ease;
 
-:hover{
-    cursor:pointer;
-     transform: translateY(-25px)
-}
+    :hover{
+        cursor:pointer;
+        transform: translateY(-25px)
+    }
 `
 
 const Desc=styled.p`
-color:#555;
-font-size:20px;
-margin-top:8px;
+    color:#555;
+    font-size:20px;
+    margin-top:8px;
 `
 const Quote=styled.i`
-font-size: 34px;
-color: rgb(255, 77, 0);
+    font-size: 34px;
+    color: rgb(255, 77, 0);
 `
 
 

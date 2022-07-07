@@ -7,22 +7,22 @@ import Paypal from "../image/logo-paypal.png";
 import Philips from "../image/logo-philips.png";
 
 const Container=styled.div`
-padding:40px 20px;
-display:flex;
-justify-content:center;
+    padding:40px 20px;
+    display:flex;
+    justify-content:center;
 `
 
 const Header=styled.h1`
-text-align:center;
-color:orange;
+    text-align:center;
+    color:orange;
 `
 
 const Image=styled.img`
-:hover{
-    curosr:pointer;
-    filter:grayscale(100%);
-    cursor:pointer;
-}
+    :hover{
+        curosr:pointer;
+        filter:grayscale(100%);
+        cursor:pointer;
+    }
 `
 const Clients = () =>{
     return( 

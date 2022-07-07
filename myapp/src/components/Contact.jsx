@@ -5,85 +5,82 @@ import Map from '../image/map.png';
 import Phone from '../image/phone.png'
 
 const Container=styled.div`
-height:90%;
+    height:90%;
 `
 const Wrapper=styled.div`
-height:100%;
-padding:20px;
-display:flex;
-align-items:center;
-justify-content:center;
+    height:100%;
+    padding:20px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
 `
 const FormContainer=styled.div`
-width:50%;
+    width:50%;
 
 `
 const AddressContainer=styled.div`
-width:50%;
-display:flex;
-flex-direction:column;
-align-items:center;
-
+    width:50%;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
 `
 const AddressItem=styled.div`
-display:flex;
-align-items:center;
-margin-bottom:50px;
+    display:flex;
+    align-items:center;
+    margin-bottom:50px;
 `
 
 const Icon=styled.img`
-width:20px;
-margin-right:20px;
-
+    width:20px;
+    margin-right:20px;
 `
 
 const Text=styled.span`
-font-size:20px;
-margin-right:50px;
+    font-size:20px;
+    margin-right:50px;
 `
 const Form=styled.form`
-height:250px;
-display:flex;
-align-items:center;
-justify-content:center;
-
+    height:250px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
 `
 const LeftForm=styled.div`
-height:100%;
-display:flex;
-flex-direction:column;
-justify-content:space-between;
-margin-right:20px;
+    height:100%;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+    margin-right:20px;
 `
 const RightForm=styled.div`
-height:100%;
-display:flex;
-flex-direction:column;
-justify-content:space-between;
+    height:100%;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
 `
 
 const Input=styled.input`
-width:200px;
-padding:20px;
+    width:200px;
+    padding:20px;
 `
 const TextArea=styled.textarea`
-width:200px;
-height:60%;
-padding:20px;
+    width:200px;
+    height:60%;
+    padding:20px;
 `
 const Button=styled.button`
-border:none;
-background-color:darkblue;
-color:white;
-font-size:16px;
-padding:15px;
-font-weight:bold;
-border-radius:10px;
-curosr:pointer;
+    border:none;
+    background-color:darkblue;
+    color:white;
+    font-size:16px;
+    padding:15px;
+    font-weight:bold;
+    border-radius:10px;
+    curosr:pointer;
 `
 
 const Title=styled.h1`
-margin-bottom:50px;
+    margin-bottom:50px;
 `
 
 const Contact=()=>{

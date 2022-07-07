@@ -9,6 +9,7 @@ import Team from './components/Team';
 import Clients from './components/Clients';
 import Price from './components/Price';
 import Contact from './components/Contact'
+import Footer from './components/Footer';
 
 const Container = styled.div`
   height:100vh;
@@ -16,30 +17,30 @@ const Container = styled.div`
   position:relative;
 `
 const Shape=css`
-width:100%;
-height:100%;
-position:absolute;
-top:0;
-left:0;
-z-index:-1;
+  width:100%;
+  height:100%;
+  position:absolute;
+  top:0;
+  left:0;
+  z-index:-1;
 `
 
 const IntroShape = styled.div`
- ${Shape}
+  ${Shape}
   clip-path: polygon(67% 0, 100% 0%, 100% 100%, 50% 100%);
   background-color:blue;
   z-index:-1;
 `
 const FeatureShape = styled.div`
-// width:100%;
-// height:100%;
-// position:absolute;
-// top:0;
-// left:0;
-// z-index:-1;
-${Shape}
-  clip-path: polygon(50% 50%, 100% 0%, 100% 100%, 100% 100%);
-  background-color:blue;
+  // width:100%;
+  // height:100%;
+  // position:absolute;
+  // top:0;
+  // left:0;
+  // z-index:-1;
+    ${Shape}
+    clip-path: polygon(50% 50%, 100% 0%, 100% 100%, 100% 100%);
+    background-color:blue;
   `
   
 
@@ -68,6 +69,9 @@ function App() {
       <Container>
         <Contact/>
       </Container>
+
+        <Footer></Footer>
+     
       
   
     </>

@@ -3,52 +3,49 @@ import styled from "styled-components";
 import Play from '../image/play.png';
 
 const Container =styled.div`
-display:flex;
-
+    display:flex;
 `
 
 const Left=styled.div`
-width:50%;
+    width:50%;
 `
 
 const Right=styled.div`
-width:50%;
+    width:50%;
 `
 const Wrapper=styled.div`
-padding:50px;
-display:flex;
-flex-direction:column;
-
+    padding:50px;
+    display:flex;
+    flex-direction:column;
 `
 
 const Title=styled.h1`
 `
 
 const Desc=styled.p`
-font-size:20px;
-margin-top:20px;
-color:#555;
+    font-size:20px;
+    margin-top:20px;
+    color:#555;
 `
 const CardContainer=styled.div`
-
-margin-top:50px;
+    margin-top:50px;
 
 `
 const Button=styled.button`
-background:blue;
-width:180px;
-border:none;
-color:white;
-padding:15px;
-font-size:20px;
-border-radius:10px;
-display:flex;
-align-items:center;
+    background:blue;
+    width:180px;
+    border:none;
+    color:white;
+    padding:15px;
+    font-size:20px;
+    border-radius:10px;
+    display:flex;
+    align-items:center;
 
 `
 
 const Image=styled.img`
-padding-right:8px;
+    padding-right:8px;
 `
 const Service = () =>{
     return ( 
