@@ -12,12 +12,16 @@ const Container=styled.div`
     justify-content:center;
     @media only screen and (max-width:480px){
         flex-direction:column;
+      align-items:center;
     }
 `
 
 const Header=styled.h1`
     text-align:center;
     color:orange;
+    @media only screen and (max-width:480px){
+       
+    }
 `
 
 const Image=styled.img`
@@ -29,13 +33,17 @@ const Image=styled.img`
     }
     @media only screen and (max-width:480px){
         width:25%;
-        margin:auto 0;
-        text-align:center;
     }
+`
+const SS=styled.div`
+@media only screen and (max-width:480px){
+    margin-top:40px;
+}
 `
 const Clients = () =>{
     return( 
         <>
+        <SS>
         <Header>Our Clients</Header>
         <Container>
         <Image src={Godrej}></Image>
@@ -45,6 +53,7 @@ const Clients = () =>{
         <Image src={Oppo}></Image>
 
         </Container>
+        </SS>
         </>
     )
 }

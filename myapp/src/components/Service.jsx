@@ -28,15 +28,24 @@ const Wrapper=styled.div`
     padding:50px;
     display:flex;
     flex-direction:column;
+    @media only screen and (max-width:480px){
+        padding:10px;
+    }
 `
 
 const Title=styled.h1`
+@media only screen and (max-width:480px){
+    font-size:35px;
+}
 `
 
 const Desc=styled.p`
     font-size:20px;
     margin-top:20px;
     color:#555;
+    @media only screen and (max-width:480px){
+        width:100%;
+    }
 `
 const CardContainer=styled.div`
     margin-top:50px;

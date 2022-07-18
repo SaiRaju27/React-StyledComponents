@@ -10,20 +10,29 @@ const Container=styled.div`
     color: #8a8a8a;
    padding:50px 80px;
    justify-content:space-between;
+   @media only screen and (max-width:480px){
+    flex-direction:column;
+    padding:20px 30px;
+    align-items:center;
+}
    
   
 `
 const Col1=styled.div`
     flex-direction:column;
     display:flex;
+    @media only screen and (max-width:480px){
+        flex-direction:column;
+    }
     
 `
 const Header=styled.h3`
-
+text-align:center;
 
 `
 const Para=styled.p`
     color: #8a8a8a;
+    text-align:center;
 `
 const Images=styled.div`
 `
@@ -42,6 +51,9 @@ const MenuItems=styled.li`
 
 `
 const Col2=styled.div`
+@media only screen and (max-width:480px){
+    flex-direction:row;
+}
 
     
 `

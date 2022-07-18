@@ -17,6 +17,9 @@ const Container = styled.div`
   position:relative;
   margin:0;
   padding:0;
+  @media only screen and (max-width:480px){
+  height:100%;
+}
 `
 const Shape=css`
   width:100%;
@@ -65,8 +68,8 @@ function App() {
     <Container>
       <Team/>
     </Container>
-
-      <Clients></Clients>
+    <Container>
+      <Clients></Clients></Container>
       <Container><Price></Price></Container>
       <Container>
         <Contact/>

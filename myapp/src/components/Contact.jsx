@@ -13,18 +13,36 @@ const Wrapper=styled.div`
     display:flex;
     align-items:center;
     justify-content:space-around;
+    @media only screen and (max-width:480px){
+      flex-direction:column;
+      
+    }
 `
 const FormContainer=styled.div`
+@media only screen and (max-width:480px){
+    flex-direction:column;
+  }
     
 
 `
 const AddressContainer=styled.div`
+@media only screen and (max-width:480px){
+    flex-direction:column;
+    margin-top:30px;
+    margin-left:30px;
+    width:100%;
+    align-items:center;
+  }
   
 `
 const AddressItem=styled.div`
     display:flex;
     align-items:center;
     margin-bottom:50px;
+    @media only screen and (max-width:480px){
+        margin-bottom:25px;
+      }
+   
 `
 
 const Icon=styled.img`
@@ -35,12 +53,19 @@ const Icon=styled.img`
 const Text=styled.span`
     font-size:20px;
     margin-right:50px;
+    
+    
 `
 const Form=styled.form`
     height:250px;
     display:flex;
     align-items:center;
     justify-content:center;
+    @media only screen and (max-width:480px){
+        
+        flex-direction:column;
+      }
+    
 `
 const LeftForm=styled.div`
     height:100%;
@@ -48,6 +73,11 @@ const LeftForm=styled.div`
     flex-direction:column;
     justify-content:space-between;
     margin-right:20px;
+    @media only screen and (max-width:480px){
+        width:100%;
+        margin-right: 0;
+        margin-top:10px;
+      }
 `
 const RightForm=styled.div`
     height:100%;
@@ -59,11 +89,19 @@ const RightForm=styled.div`
 const Input=styled.input`
     width:200px;
     padding:20px;
+    @media only screen and (max-width:480px){
+       margin-top:10px;
+      }
+    
 `
 const TextArea=styled.textarea`
     width:200px;
     height:60%;
     padding:20px;
+    @media only screen and (max-width:480px){
+       margin-top:10px;
+      }
+    
 `
 const Button=styled.button`
     border:none;
@@ -74,10 +112,17 @@ const Button=styled.button`
     font-weight:bold;
     border-radius:10px;
     curosr:pointer;
+    @media only screen and (max-width:480px){
+        margin-top:10px;
+      }
+    
 `
 
 const Title=styled.h1`
     margin-bottom:50px;
+    @media only screen and (max-width:480px){
+       
+    }
 `
 
 const Contact=()=>{
@@ -111,7 +156,6 @@ const Contact=()=>{
     <AddressItem>
         <Icon src={Send}/>
         <Text>kraju9589@gmail.com</Text>
-        <Text>kanakasairaju@gmail.com</Text>
     </AddressItem>
 </AddressContainer>
             </Wrapper>

@@ -12,10 +12,10 @@ const Container=styled.div`
     flex-direction:column;
     align-items:center;
     @media only screen and (max-width:480px){
-        margin-bottom:20px;
-        margin-right:0;
-        padding:10px;
+        margin:auto 0;
+     
     }
+  
 `
 const  PriceContainer=styled.div`
     display:flex;
@@ -37,6 +37,9 @@ const List=styled.ul`
 `
 const ListItem=styled.li`
     margin:30px 0;
+    @media only screen and (max-width:480px){
+        margin:15px 0;
+    }
 `
 
 const Button=styled.button`

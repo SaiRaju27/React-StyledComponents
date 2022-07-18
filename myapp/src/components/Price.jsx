@@ -9,6 +9,7 @@ const Container=styled.div`
     align-items:center;
     @media only screen and (max-width:480px){
         flex-direction:column;
+       height:auto;
     }
 `
 const Header=styled.h1`
