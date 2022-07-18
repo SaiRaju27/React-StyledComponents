@@ -6,16 +6,27 @@ const Container = styled.div`
     height:calc(100vh - 50px);
     display:flex;
     padding:20px;
+    @media only screen and (max-width:480px){
+       flex-direction:column;
+    }
 `
 const Title = styled.h1`
     font-size:60px;
     width:60%;
+
+    @media only screen and (max-width:480px){
+        width:100%;
+        font-size:50px;
+    }
 `
 
 const Desc = styled.p`
     width:60%;
     font-size:20px;
     margin-top:20px;
+    @media only screen and (max-width:480px){
+        width:100%;
+    }
 `
 
 const Left = styled.div`
@@ -24,13 +35,21 @@ const Left = styled.div`
     flex-direction:column;
     align-items:center;
     justify-content:center;
+
+    @media only screen and (max-width:480px){
+        width:100%;
+        height:100%;
+    }
 `
 
 const Right = styled.div`
     width:40%; 
     display:flex;
     align-items:center;
-    justify-content:center;   
+    justify-content:center; 
+    @media only screen and (max-width:480px){
+      display:none;
+    }  
 `
 const Info = styled.div`
     display:flex;
@@ -38,6 +57,9 @@ const Info = styled.div`
     margin-top:50px;
     justify-content:space-between;
     align-items:center;
+    @media only screen and (max-width:480px){
+      flex-direction:column;
+    }
 `
 const Button = styled.button`
     /* border:2px solid transparent; */
@@ -49,6 +71,9 @@ const Button = styled.button`
     border:none;
     letter-spacing:2px;
     cursor:pointer;
+    @media only screen and (max-width:480px){
+        margin-bottom:20px;
+    }
 `
 const Contact = styled.div`
     display:flex;
@@ -65,6 +90,7 @@ const ContactText = styled.span`
 
 const Image = styled.img`
     width:100%;
+  
 `
 
 const Intro = () => {

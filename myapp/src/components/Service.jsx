@@ -4,14 +4,25 @@ import Play from '../image/play.png';
 
 const Container =styled.div`
     display:flex;
+    @media only screen and (max-width:480px){
+        flex-direction:column;
+    }
 `
 
 const Left=styled.div`
     width:50%;
+    @media only screen and (max-width:480px){
+        display:none;
+    }
+   
 `
 
 const Right=styled.div`
     width:50%;
+    
+    @media only screen and (max-width:480px){
+        width:100%;
+    }
 `
 const Wrapper=styled.div`
     padding:50px;

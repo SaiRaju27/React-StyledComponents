@@ -24,6 +24,10 @@ const Logo = styled.h1`
 const Menu = styled.ul`
     list-style-type: none;
     display:flex;
+
+    @media only screen and (max-width:480px){
+        display:none;
+    }
 `
 const MenuItem = styled.li`
     margin:20px;

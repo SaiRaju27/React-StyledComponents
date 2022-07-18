@@ -11,6 +11,11 @@ const Container=styled.div`
     margin-right:50px;
     flex-direction:column;
     align-items:center;
+    @media only screen and (max-width:480px){
+        margin-bottom:20px;
+        margin-right:0;
+        padding:10px;
+    }
 `
 const  PriceContainer=styled.div`
     display:flex;

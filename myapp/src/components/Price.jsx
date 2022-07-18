@@ -7,6 +7,9 @@ const Container=styled.div`
     justify-content:center;
     height:100%;
     align-items:center;
+    @media only screen and (max-width:480px){
+        flex-direction:column;
+    }
 `
 const Header=styled.h1`
     text-align:center;

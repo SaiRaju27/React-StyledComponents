@@ -5,24 +5,21 @@ import Map from '../image/map.png';
 import Phone from '../image/phone.png'
 
 const Container=styled.div`
-    height:90%;
+   
 `
 const Wrapper=styled.div`
-    height:100%;
-    padding:20px;
+    
+
     display:flex;
     align-items:center;
-    justify-content:center;
+    justify-content:space-around;
 `
 const FormContainer=styled.div`
-    width:50%;
+    
 
 `
 const AddressContainer=styled.div`
-    width:50%;
-    display:flex;
-    flex-direction:column;
-    align-items:center;
+  
 `
 const AddressItem=styled.div`
     display:flex;

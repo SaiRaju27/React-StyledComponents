@@ -5,17 +5,27 @@ import Biodata from '../image/biodata.jpg';
 const Container=styled.div`
     display:flex;
     padding:20px;
+    @media only screen and (max-width:480px){
+        flex-direction:column;
+        paddin:30px 20px;
+    }
 `
 const Left=styled.div`
     width:60%;
     display:flex;
     justify-content:center;
+    @media only screen and (max-width:480px){
+       display:none;
+    }
 `
 const Right=styled.div`
     width:40%;
     display:flex;
     flex-direction:column;
     justify-content:center;
+    @media only screen and (max-width:480px){
+        width:100%;
+    }
 `
 const Image=styled.img`
     width:60%;
@@ -23,6 +33,9 @@ const Image=styled.img`
 `
 const Title=styled.span`
     font-size:70px;
+    @media only screen and (max-width:480px){
+        font-size:50px;
+    }
 `
 const SubTitle=styled.span`
     font-style:italic;

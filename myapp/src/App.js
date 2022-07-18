@@ -15,6 +15,8 @@ const Container = styled.div`
   height:100vh;
   overflow:hidden;
   position:relative;
+  margin:0;
+  padding:0;
 `
 const Shape=css`
   width:100%;

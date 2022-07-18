@@ -10,6 +10,9 @@ const Container=styled.div`
     padding:40px 20px;
     display:flex;
     justify-content:center;
+    @media only screen and (max-width:480px){
+        flex-direction:column;
+    }
 `
 
 const Header=styled.h1`
@@ -18,10 +21,16 @@ const Header=styled.h1`
 `
 
 const Image=styled.img`
+
     :hover{
-        curosr:pointer;
-        filter:grayscale(100%);
         cursor:pointer;
+        filter:grayscale(100%);
+       
+    }
+    @media only screen and (max-width:480px){
+        width:25%;
+        margin:auto 0;
+        text-align:center;
     }
 `
 const Clients = () =>{

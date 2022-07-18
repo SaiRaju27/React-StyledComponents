@@ -7,6 +7,9 @@ import User3 from '../image/user-3.png';
 const Container =styled.div`
     display:flex;
     justify-content:center;
+    @media only screen and (max-width:480px){
+        flex-direction:column;
+    }
 
 `
 const Header=styled.h1`
