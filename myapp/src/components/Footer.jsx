@@ -14,6 +14,7 @@ const Container=styled.div`
     flex-direction:column;
     padding:20px 30px;
     align-items:center;
+    height:100%;
 }
    
   
@@ -27,12 +28,16 @@ const Col1=styled.div`
     
 `
 const Header=styled.h3`
-text-align:center;
+
 
 `
 const Para=styled.p`
     color: #8a8a8a;
-    text-align:center;
+    
+    @media only screen and (max-width:480px){
+      text-align: ${({a}) => a ? "center" : "left"};
+     
+    }
 `
 const Images=styled.div`
 `
@@ -41,35 +46,39 @@ const Image=styled.img`
     width: 150px;
   
 `
-const Menu=styled.ul`
-list-style:none;
+// const Menu=styled.ul`
+// list-style:none;
 
 
-`
-const MenuItems=styled.li`
+// `
+// const MenuItems=styled.li`
 
 
-`
-const Col2=styled.div`
-@media only screen and (max-width:480px){
-    flex-direction:row;
-}
-
-    
-`
-const Col3=styled.div`
+// `
+// const Col2=styled.div`
+// @media only screen and (max-width:480px){
+//     flex-direction:row;
+// }
 
     
-`
+// `
+// const Col3=styled.div`
+
+    
+// `
 const Col4=styled.div`
+@media only screen and (max-width:480px){
+    
+  margin-left:10px;
+}
 
    
 `
 
 const Hr=styled.hr`
 margin-top:20px;
-height:20px;
-color:orange;
+height:2px;
+background-color:black;
 `
 const Footer=()=>{
     return(
@@ -84,7 +93,7 @@ const Footer=()=>{
                         <Image src={AppStore}></Image>
                     </Images>
                 </Col1>
-                <Col2>
+                {/* <Col2>
                     <Header>UseFul Links</Header>
                     <Menu>
                         <MenuItems>Coupons</MenuItems>
@@ -101,10 +110,10 @@ const Footer=()=>{
                         <MenuItems>Coupons</MenuItems>
                         <MenuItems>Coupons</MenuItems>
                     </Menu>
-                </Col3>
+                </Col3> */}
                 <Col4>
                 <Image src={RedCart}></Image>
-                <Para>Make the things well from your side and suggest the team</Para>
+                <Para>Me the things well from your side and suggest the team</Para>
                 
                 </Col4>
             
@@ -113,7 +122,7 @@ const Footer=()=>{
 
         </Container>
         <Hr/>
-            <Para>Copyright &copy; 2020 R@JU Ecommerce Site</Para>
+            <Para a>Copyright &copy; 2020 R@JU Ecommerce Site</Para>
         </>
     )
 }

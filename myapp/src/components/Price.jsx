@@ -9,12 +9,15 @@ const Container=styled.div`
     align-items:center;
     @media only screen and (max-width:480px){
         flex-direction:column;
-       height:auto;
+      margin-bottom:50px;
     }
 `
 const Header=styled.h1`
     text-align:center;
     color:orange;
+    @media only screen and (max-width:480px){
+       margin-bottom:20px;
+    }
 `
 const Price=()=>{
     return(

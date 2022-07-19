@@ -13,6 +13,7 @@ const Container=styled.div`
     align-items:center;
     @media only screen and (max-width:480px){
         margin:auto 0;
+        margin-bottom:15px;
      
     }
   
@@ -20,6 +21,7 @@ const Container=styled.div`
 const  PriceContainer=styled.div`
     display:flex;
     align-items:center;
+   
 `
 const Price=styled.span`
     font-weight:bold;

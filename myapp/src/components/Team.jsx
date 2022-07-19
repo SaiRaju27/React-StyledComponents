@@ -17,6 +17,7 @@ const Testimonials=styled.div`
     display:flex;
     @media only screen and (max-width:480px){
         flex-direction:column;
+        margin-bottom:50px;
     }
 `
 const Image=styled.img`

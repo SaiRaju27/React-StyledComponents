@@ -28,10 +28,8 @@ const FormContainer=styled.div`
 const AddressContainer=styled.div`
 @media only screen and (max-width:480px){
     flex-direction:column;
-    margin-top:30px;
-    margin-left:30px;
-    width:100%;
-    align-items:center;
+    margin-top:100px;
+    margin-left:66px;
   }
   
 `

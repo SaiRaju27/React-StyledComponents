@@ -61,6 +61,10 @@ const Button=styled.button`
     border-radius:10px;
     display:flex;
     align-items:center;
+    @media only screen and (max-width:480px){
+        width:100%;
+        justify-content:center;
+    }
 
 `
 

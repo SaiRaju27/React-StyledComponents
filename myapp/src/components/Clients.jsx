@@ -33,6 +33,7 @@ const Image=styled.img`
     }
     @media only screen and (max-width:480px){
         width:25%;
+        margin-top:10px;
     }
 `
 const SS=styled.div`

@@ -68,8 +68,8 @@ function App() {
     <Container>
       <Team/>
     </Container>
-    <Container>
-      <Clients></Clients></Container>
+    
+      <Clients></Clients>
       <Container><Price></Price></Container>
       <Container>
         <Contact/>

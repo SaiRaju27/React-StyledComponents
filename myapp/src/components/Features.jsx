@@ -15,7 +15,7 @@ const Left=styled.div`
     display:flex;
     justify-content:center;
     @media only screen and (max-width:480px){
-       display:none;
+        width:100%;
     }
 `
 const Right=styled.div`
@@ -57,6 +57,9 @@ const Button=styled.button`
     font-size:20px;
     border-radius:20px;
     color:white;
+    @media only screen and (max-width:480px){
+        width:100%;
+    }
 `
 
 

@@ -8,6 +8,7 @@ const Container = styled.div`
     padding:20px;
     @media only screen and (max-width:480px){
        flex-direction:column;
+       margin-bottom:200px;
     }
 `
 const Title = styled.h1`
@@ -48,7 +49,7 @@ const Right = styled.div`
     align-items:center;
     justify-content:center; 
     @media only screen and (max-width:480px){
-      display:none;
+  width:100%;
     }  
 `
 const Info = styled.div`
@@ -73,11 +74,17 @@ const Button = styled.button`
     cursor:pointer;
     @media only screen and (max-width:480px){
         margin-bottom:20px;
+        background-color:pink;
+        width:100%;
     }
 `
 const Contact = styled.div`
     display:flex;
     flex-direction:column;
+    @media only screen and (max-width:480px){
+        text-align:center;
+        
+    }
 `
 const Phone = styled.span`
     color:#f0667d;
@@ -90,6 +97,7 @@ const ContactText = styled.span`
 
 const Image = styled.img`
     width:100%;
+    margin-top:25px;
   
 `
 
